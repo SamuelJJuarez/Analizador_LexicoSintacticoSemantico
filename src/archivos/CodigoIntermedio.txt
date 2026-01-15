@@ -1,0 +1,10 @@
+OP	ARG1	ARG2	RES
+------------------------------------
+=	11B	null	a
+=	10B	null	b
++	a	0B	T1
+=	T1	null	c
+*	c	1B	T2
+=	T2	null	c
+/	c	1B	T3
+=	T3	null	c

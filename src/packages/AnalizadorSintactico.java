@@ -427,7 +427,7 @@ public class AnalizadorSintactico {
     // Método para guardar el código intermedio en un archivo TXT
     public void guardarCodigoIntermedio() {
         // Ruta relativa igual a la que usas en tu Entrada.txt
-        String rutaArchivo = "..\\AnalizadorLexicoSintactico\\src\\archivos\\resultado_codigoI.txt";
+        String rutaArchivo = "src/archivos/CodigoIntermedio.txt";
 
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(rutaArchivo))) {
             

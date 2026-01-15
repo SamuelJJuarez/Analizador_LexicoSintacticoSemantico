@@ -1,6 +1,9 @@
 programa x
-octal a, b;
-a = b + 10B;
-leer(a);
-escribir(a / 10B);
+binario a, b, c;
+a = 11B;
+b = 10B;
+c = a + 0B;
+c = c * 1B;
+c = c / 1B;
+escribir(c);
 finprograma

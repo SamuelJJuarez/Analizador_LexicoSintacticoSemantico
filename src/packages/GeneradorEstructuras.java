@@ -10,7 +10,7 @@ import java.util.regex.Pattern;
 public final class GeneradorEstructuras {
 
     //Variables
-    String rutaArchivo = "..\\AnalizadorLexicoSintactico\\src\\archivos\\Gramatica.txt";
+    String rutaArchivo = "src/archivos/Gramatica.txt";
     Lista gramatica = new Lista();
     Lista ladoDerecho = new Lista();
     Lista terminales = new Lista();

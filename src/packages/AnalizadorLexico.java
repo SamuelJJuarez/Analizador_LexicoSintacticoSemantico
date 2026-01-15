@@ -11,7 +11,7 @@ import java.util.logging.Logger;
 public class AnalizadorLexico {
 
     //Variables
-    File archivo = new File("..\\AnalizadorLexicoSintactico\\src\\archivos\\Entrada.txt");
+    File archivo = new File("src/archivos/Entrada.txt");
     static char[] caracteresSimples = {';', '=', '+', '-', '/', '*', ',', '(', ')'};
     static String[] reservadas = {"programa", "binario", "octal", "hexad", "leer", "escribir", "finprograma"};
 
