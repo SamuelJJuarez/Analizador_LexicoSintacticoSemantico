@@ -1,0 +1,6 @@
+programa x
+octal a, b;
+a = b + 10B;
+leer(a);
+escribir(a / 10B);
+finprograma

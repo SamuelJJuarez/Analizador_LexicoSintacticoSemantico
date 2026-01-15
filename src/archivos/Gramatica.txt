@@ -1,0 +1,25 @@
+1. <inicio> -> programa id <sentencias> finprograma
+2. <sentencias> -> <sent> <sentf>
+3. <sentf> -> <sent> <sentf>
+4. <sentf> -> ε 
+5. <sent> -> <tipo> <listaid>;
+6. <sent> -> id = <expresión>;
+7. <sent> -> leer (<listaid>);
+8. <sent> -> escribir (<expresión>);
+9. <listaid> -> id <listaf>
+10.<listaf> -> , id <listaf>
+11.<listaf> -> ε
+12.<expresión> -> <expr> <exprf>
+13.<exprf> -> <oper> <expr> <exprf>
+14.<exprf> -> ε
+15.<expr> -> id
+16.<expr> -> litbinaria
+17.<expr> -> litoctal
+18.<expr> -> lithexa
+19.<tipo> -> binario
+20.<tipo> -> octal
+21.<tipo> -> hexad
+22.<oper> -> +
+23.<oper> -> -
+24.<oper> -> *
+25.<oper> -> /
