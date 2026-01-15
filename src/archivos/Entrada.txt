@@ -1,9 +1,6 @@
 programa x
-binario a, b, c;
-a = 11B;
-b = 10B;
-c = a + 0B;
-c = c * 1B;
-c = c / 1B;
-escribir(c);
+octal x, y;
+x = 10O;
+y = x + 0O * 1O + 0O;
+escribir(y);
 finprograma
